@@ -1,0 +1,14 @@
+{
+  "name": "longload",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Sample for avoiding loading multiple times an expensive external data.",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "opena854",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
