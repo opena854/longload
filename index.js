@@ -1,7 +1,6 @@
-
 import http from 'http'
 import express from "express"
-import { read, set } from "./src/worker.js";
+import { read, set } from "./src/cache.js";
 import { env } from 'process';
 
 const app = express()
